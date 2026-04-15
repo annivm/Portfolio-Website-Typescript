@@ -58,9 +58,9 @@ const Contact = forwardRef<HTMLElement, {}>((props, ref) => {
                 </a>
                 <br/>
                 <br/>
-                <a href="/CV2026_kevat.pdf" target="_blank" rel="noopener noreferrer"> <FaRegFilePdf /> Open CV (Finnish)</a>
+                <a href="/CV2026_kevat.pdf" target="_blank" rel="noopener noreferrer"> <FaRegFilePdf /> Open CV (English)</a>
                 <br/>
-                <a href="/CV2026_kevat.pdf" download> <FaRegFilePdf /> Download CV (Finnish)</a>
+                <a href="/CV2026_kevat.pdf" download> <FaRegFilePdf /> Download CV (English)</a>
             </div>
 
             <form ref={formRef} className='contact-form' onSubmit={handleSubmit}>
