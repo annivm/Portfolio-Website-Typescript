@@ -1,4 +1,3 @@
-````markdown
 # Portfolio Website
 
 Personal portfolio website showcasing projects, skills, and professional background.
@@ -89,4 +88,4 @@ Anni Mustonen
 ## License
 
 This project is intended for personal portfolio use. All rights reserved.
-````
+
