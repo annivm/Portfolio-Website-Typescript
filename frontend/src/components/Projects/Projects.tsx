@@ -39,7 +39,7 @@ const Projects = forwardRef<HTMLDivElement, {}>((props, ref) => {
                     <p>Originally this site was made with Javascript, but now its updated to Typescript.</p>
                     <br />
                     <a
-                        href="https://github.com/annivm/Portfolio-Website"
+                        href="https://github.com/annivm/Portfolio-Website-Typescript"
                         target="_blank"
                         rel="noopener noreferrer">
                         <FaGithub />
