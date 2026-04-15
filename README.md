@@ -75,7 +75,7 @@ npm run build
 
 ## **Notes**
 
-- Project contact details and email configuration are in `src/components/Contact/Contact.tsx`. -> make sure to add your own in .env-file:
+- Email configuration are in `src/components/Contact/Contact.tsx`. -> make sure to add your own in .env-file:
     VITE_SERVICE_ID=
     VITE_TEMPLATE_ID=
     VITE_PUBLIC_KEY=
