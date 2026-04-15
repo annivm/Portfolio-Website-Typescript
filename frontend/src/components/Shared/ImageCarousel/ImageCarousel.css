@@ -1,0 +1,84 @@
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  max-height: 500px;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  border-radius: 0.75rem;
+  object-fit: cover;
+  transition: opacity 3s ease;
+}
+
+img.hidden {
+  display: none;
+}
+
+img.block {
+  display: block;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav-button {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.nav-button.left {
+  left: 0rem;
+}
+
+.nav-button.right {
+  right: 0rem;
+}
+
+.nav-button:hover {
+  color: var(--secondary)
+
+}
+.nav-button:focus {
+    outline: none;
+}
+
+.nav-button.light {
+    color: var(--secondary);
+}
+
+.nav-button.light:hover {
+  color: var(--tertiary)
+}
+
+@media (max-width: 740px) {
+  .image-container {
+    height: auto;
+  }
+}

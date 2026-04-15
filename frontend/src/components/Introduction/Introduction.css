@@ -1,0 +1,49 @@
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+
+}
+
+.introduction-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    color: var(--secondary);
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.introduction-image {
+  width: 250px;
+  height: auto;
+}
+
+.introduction-text {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.2rem;
+    max-width: 500px;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease, transform 1.5s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 740px) {
+  .introduction {
+    flex-direction: column;
+    align-items: center;
+  }
+}

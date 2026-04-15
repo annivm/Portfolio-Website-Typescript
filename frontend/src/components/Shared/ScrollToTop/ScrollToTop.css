@@ -1,0 +1,22 @@
+
+.scrollToTopHidden {
+    display: none;
+}
+
+.scrollToTop {
+    position: fixed;
+    bottom: 2.5em;
+    right: 5em;
+    text-align: center;
+    z-index: 5;
+}
+
+.scrollToTop:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 740px) {
+  .scrollToTop {
+    right: 2em;
+  }
+}

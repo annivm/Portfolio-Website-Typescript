@@ -1,0 +1,76 @@
+
+.card {
+    position: relative;
+    /* margin: 0; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.exp-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  width: 450px;
+}
+
+.exp-card > h3 {
+  font-size: 1.5rem;
+}
+
+.exp-card > p {
+margin: 0;
+}
+.secondary-text{
+  color: var(--secondary);
+}
+.exp-card:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(154, 140, 152, 0.26);
+    transform: scale(1.02);
+    transition: transform 0.5s ease;
+}
+
+.details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease;
+}
+
+.details.show {
+    max-height: 1000px;
+    transition: max-height 2.5s ease;
+}
+
+.details p {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.details.show p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.inline-link {
+  display: inline;
+}
+
+.list-text {
+    text-align: start;
+    padding: 1.5rem;
+}
+
+
+@media (max-width: 740px) {
+  .exp-heading,.project-heading, .education-heading {
+    text-align: center;
+    padding: 0 0 1em 0;
+  }
+  .exp-box, .project-box {
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+}

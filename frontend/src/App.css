@@ -1,0 +1,11 @@
+#root {
+  text-align: center;
+  width: 95%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary);
+  color: var(--accent);
+}

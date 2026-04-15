@@ -1,0 +1,28 @@
+.exp-box, .project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow:
+      0 8px 10px rgba(29, 29, 49, 0.9),
+      inset 0 2px 0 rgba(242, 233, 228, 0.05),
+      inset 0 -2px 0 rgba(154, 140, 152, 0.05),
+      inset 0 0 0px 0px rgba(255, 255, 255, 0);
+}
+
+.exp-heading, .project-heading, .education-heading {
+    text-align: start;
+    color: var(--secondary);
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+    padding: 0 0 1rem 1rem;
+}
+
+.exp-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 1em;
+}
