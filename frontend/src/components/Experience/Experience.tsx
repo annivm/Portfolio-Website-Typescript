@@ -21,7 +21,7 @@ const Experience = forwardRef<HTMLElement, {}>((props, ref) => {
                     </p>
                 </ExpandableCard>
 
-                <ExpandableCard title="Biomedical Laboratory Scientist" description="12/2019 - Current (Permanent, currently on study-leave)" other="Fimlab Laboratoriot Oy">
+                <ExpandableCard title="Biomedical Laboratory Scientist" description="01/2020 - Current (Permanent, currently on study-leave)" other="Fimlab Laboratoriot Oy">
                     <p>Worked as a biomedical laboratory scientist in hematology department at Fimlab Laboratoriot Oy, Finland's largest medical laboratory service provider.</p>
                     <p className='list-text'>
                     <MdOutlineTaskAlt /> 24/7 Laboratory work in central laboratory<br/>

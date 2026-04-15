@@ -32,7 +32,7 @@ const Education = forwardRef<HTMLElement, {}>((props, ref) => {
                         <FadeInText className='timeline-text'>
                             Tampere University of Applied Sciences
                             <br/>
-                                221/240 ETCs
+                                226/240 ETCs
                         </FadeInText>
                     </TimelineContent>
                 </TimelineItem>
